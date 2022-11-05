@@ -76,7 +76,7 @@ body {
   background-color: lightgrey;
 }
 
-/* creat image x */
+/* creat image x, including hover effect */
 .cell.x::before,
 .cell.x::after,
 .board.x .cell:not(.x):not(.circle):hover::before,
@@ -97,7 +97,7 @@ body {
   transform: rotate(-45deg);
 }
 
-/* create image o */
+/* create image o, including hover effect */
 .cell.circle::before,
 .cell.circle::after,
 .board.circle .cell:not(.x):not(.circle):hover::before,
